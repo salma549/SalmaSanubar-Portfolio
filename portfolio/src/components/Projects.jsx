@@ -6,7 +6,7 @@ import React from "react";
 import GitHubSearchEngine from "../assets/portfolio/search.png";
 import netflixMovies from "../assets/portfolio/netflixMovies.png";
 import netflix from "../assets/portfolio/netflix.png";
-import Weather from "../assets/portfolio/weather.png";
+import Weather from "../assets/portfolio/weather-react1.png";
 import Game from "../assets/portfolio/Game.png";
 import Voting from "../assets/portfolio/Voting.png";
 
@@ -15,7 +15,7 @@ const Projects = () => {
     {
       id: 1,
       src: GitHubSearchEngine,
-      demoLink: "https://salma549.github.io/Salma_githubSearchEngine/",
+      demoLink: "https://github.com/salma549/Salma_githubSearchEngine",
       codeLink: "https://github.com/salma549/Salma_githubSearchEngine",
       description: "A GitHub search engine to find repositories and users easily.",
     },
@@ -44,7 +44,7 @@ const Projects = () => {
       id: 5,
       src: Weather,
       demoLink: "https://weather-demo.com",
-      codeLink: "https://github.com/salma549/weatherAPI",
+      codeLink: "https://github.com/salma549/weatherApp-react",
       description: "A weather app that provides current forecasts based on location.",
     },
     {
