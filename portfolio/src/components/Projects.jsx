@@ -141,6 +141,7 @@ const Projects = () => {
           <div className="flex space-x-4">
             <button
               onClick={() => setActiveTab("major")}
+              
               className={`px-6 py-2 rounded-full ${
                 activeTab === "major"
                   ? "bg-[#229799] text-white"
