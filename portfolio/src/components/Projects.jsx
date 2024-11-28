@@ -17,21 +17,21 @@ const Projects = () => {
     {
       id: 1,
       src: InterviewPreparationApplication,
-      demoLink: "https://github.com/salma549/Salma_githubSearchEngine",
+      demoLink: "https://github.com/salma549/Salma-InterviewPrepApp",
       codeLink: "https://github.com/salma549/Salma-InterviewPrepApp",
       description: "Interview Preparation Application.",
     },
     {
       id: 2,
       src: Ecommerce,
-      demoLink: "https://github.com/salma549/Salma_githubSearchEngine",
+      demoLink: "https://github.com/salma549/Salma-Capstone-Project",
       codeLink: "https://github.com/salma549/Salma-Capstone-Project",
       description: "A responsive e-commerce interface featuring a sleek header, search bar, and intuitive navigation for a seamless shopping journey.",
     },
     {
       id: 3,
       src: EcommerceStyling,
-      demoLink: "https://github.com/salma549/Salma_githubSearchEngine",
+      demoLink: "https://github.com/salma549/Salma-StylingEcommerce-Capstone",
       codeLink: "https://github.com/salma549/Salma-StylingEcommerce-Capstone",
       description: "A platform that suggests curated outfit accessories like earrings, shoes, and ties based on user preferences, enhancing shopping experiences.",
     },
@@ -41,42 +41,42 @@ const Projects = () => {
     {
       id: 4,
       src: GitHubSearchEngine,
-      demoLink: "https://github.com/salma549/Salma_githubSearchEngine",
+      demoLink: "https://salmasanubar.com/github-user-search/",
       codeLink: "https://github.com/salma549/Salma_githubSearchEngine",
       description: "A GitHub search engine to find repositories and users easily.",
     },
     {
       id: 5,
       src: Weather,
-      demoLink: "https://weather-demo.com",
+      demoLink: "https://salmasanubar.com/weather-app/",
       codeLink: "https://github.com/salma549/weatherApp-react",
       description: "A weather app that provides current forecasts based on location.",
     },
     {
       id: 6,
       src: Voting,
-      demoLink: "https://salma549.github.io/votingsPoll/",
+      demoLink: "https://salmasanubar.com/voting-app/",
       codeLink: "https://github.com/salma549/votingsPoll",
       description: "A voting poll app where users can cast votes on various topics.",
     },
     {
       id: 7,
       src: Todo,
-      demoLink: "https://netflix-demo.com",
+      demoLink: "https://salmasanubar.com/task-manager/",
       codeLink: "https://github.com/salma549/todo-list",
       description: "A sleek and intuitive application to manage tasks efficiently.",
     },
     {
       id: 8,
       src: netflixMovies,
-      demoLink: "https://netflixmovies-demo.com",
+      demoLink: "https://salmasanubar.com/netflix-movies/",
       codeLink: "https://github.com/salma549/netflixMovies",
       description: "Netflix Movies UI clone showcasing trending movies.",
     },
     {
       id: 9,
       src: Game,
-      demoLink: "https://game-demo.com",
+      demoLink: "https://salmasanubar.com/mind-game/",
       codeLink: "https://github.com/salma549/numberGuessGame",
       description: "A fun number guessing game built with JavaScript and DOM.",
     },
@@ -141,7 +141,7 @@ const Projects = () => {
           <div className="flex space-x-4">
             <button
               onClick={() => setActiveTab("major")}
-              
+
               className={`px-6 py-2 rounded-full ${
                 activeTab === "major"
                   ? "bg-[#229799] text-white"
